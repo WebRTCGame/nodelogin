@@ -1,0 +1,29 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server",
+  "main": "server.js",
+  "author": "whatever",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14",
+    "supervisor": "0.4.x",
+     "mocha": "*",
+   "should": ">= 0.0.1",
+   "bcrypt": "0.7.x",
+   "mongoose": "3.x.x",
+   "supertest": "0.3.x",
+   "express-validator": "0.3.x",
+"validator": "0.4.x"
+  },
+  "scripts":{
+      "start": "node_modules/.bin/supervisor server",
+      "test": "node_modules/.bin/mocha -w"
+  },
+  "repository" :
+ { 
+   "type" : "git",
+   "url" : "http://github.com/npm/npm.git"
+ }
+}
